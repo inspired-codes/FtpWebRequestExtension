@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>12</LangVersion>
+		<RootNamespace>Ice.$(MSBuildProjectName)</RootNamespace>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Ice.FtpWebRequestExtension</Title>
+		<Authors>ppmetz</Authors>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<SignAssembly>True</SignAssembly>
+		<Version>0.1.0</Version>
+		<AssemblyName>Inspired-Codes.$(MSBuildProjectName)</AssemblyName>
+		<PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)'))=./</PathMap>
+		<Copyright>Ice</Copyright>
+		<AnalysisLevel>none</AnalysisLevel>
+	</PropertyGroup>
+
+</Project>
